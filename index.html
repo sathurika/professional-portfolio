@@ -3,363 +3,1484 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sathurika | AI Engineer Aspirant</title>
+
+    <meta name="description"
+          content="Sathurika R — Software Developer and AI/ML Enthusiast building AI-powered applications, LLM systems and intelligent software.">
+
+    <title>Sathurika R | Software Developer • AI/ML</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-     
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- NAVBAR -->
+<!-- =====================================================
+     NAVBAR
+===================================================== -->
 
-    <nav class="navbar">
-        <div class="logo">SATHURIKA</div>
+<nav class="navbar">
 
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <a href="#home" class="logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        SATHURIKA
+    </a>
 
-        <button id="theme-toggle">☀️</button>
-    </nav>
+    <ul class="nav-links">
 
-    <!-- HERO SECTION -->
+        <li>
+            <a href="#about">About</a>
+        </li>
 
-    <section class="hero">
+        <li>
+            <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#achievements">Achievements</a>
+        </li>
+
+        <li>
+            <a href="#resume">Resume</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+    <div class="nav-actions">
+
+        <button id="theme-toggle"
+                aria-label="Toggle theme">
+            ☀️
+        </button>
+
+        <button class="mobile-menu-btn"
+                id="mobile-menu-btn"
+                aria-label="Open menu">
+            ☰
+        </button>
+
+    </div>
+
+</nav>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section id="home" class="hero">
+
+    <div class="hero-grid">
+
+        <!-- LEFT -->
 
         <div class="hero-left">
 
-            <img src="assests/profile.jpg/" alt="Sathurika" class="profile-image">
+            <div class="profile-wrapper">
+
+                <div class="status-dot">
+                    <span></span>
+                    Building AI
+                </div>
+
+                <img
+                    src="assests/professional profile.jpeg"
+                    alt="Sathurika R"
+                    class="profile-image"
+                >
+
+            </div>
 
         </div>
+
+
+        <!-- RIGHT -->
 
         <div class="hero-right">
 
-            <p class="hero-tag">AI • ML • GENERATIVE AI</p>
+            <div class="terminal-label">
+                <span>$</span> whoami
+            </div>
 
-            <h1>Sathurika</h1>
+            <p class="hero-tag">
+                SOFTWARE DEVELOPMENT • AI / ML • GENERATIVE AI
+            </p>
 
-            <h2>AI Engineer Aspirant</h2>
+            <h1>
+                Sathurika<span class="accent">.</span>
+            </h1>
+
+            <h2 id="role-text">
+                Software Developer
+            </h2>
 
             <p class="hero-description">
-                Building intelligent AI-powered solutions that solve real-world
-                problems through Machine Learning, Prompt Engineering,
-                and Modern AI Technologies.
+                Computer Science Engineering student building
+                AI-powered applications, LLM systems and intelligent
+                software solutions with Python and modern AI technologies.
             </p>
+
 
             <div class="hero-buttons">
 
-                <a href="assests/resume.pdf/sathurika Resume001.pdf" download class="primary-btn">
-                    Download Resume
+                <a href="#projects"
+                   class="primary-btn">
+                    <span>View Projects</span>
+                    →
                 </a>
 
-                <a href="#contact" class="secondary-btn">
-                    Contact Me
+                <a href="assests/Sathurika_R_Resume003.pdf"
+                   target="_blank"
+                   class="secondary-btn">
+                    View Resume
+                </a>
+
+            </div>
+
+
+            <div class="hero-links">
+
+                <a href="https://github.com/sathurika"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub ↗
+                </a>
+
+                <a href="https://www.linkedin.com/in/04-sathurika"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn ↗
                 </a>
 
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- ABOUT -->
 
-    <section id="about" class="section">
+    <div class="scroll-indicator">
+        <span></span>
+        Scroll to explore
+    </div>
 
-        <div class="section-title">
-            <h2>About Me</h2>
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section id="about" class="section">
+
+    <div class="section-header">
+
+        <span class="section-number">01</span>
+
+        <div>
+            <p class="section-kicker">ABOUT</p>
+            <h2>Building with curiosity.</h2>
         </div>
 
-        <div class="about-content">
+    </div>
 
-            <p>
-                I'm Sathurika, a B.E. Computer Science Engineering student at
-                Sri Venkateswaraa College of Technology, Sriperumbudur.
-                Currently entering my third year and actively building
-                expertise in Artificial Intelligence, Machine Learning,
-                Prompt Engineering, and Generative AI.
+
+    <div class="about-grid">
+
+        <div class="about-main">
+
+            <p class="large-text">
+                I'm <strong>Sathurika</strong>, a Computer Science
+                Engineering student focused on software development,
+                artificial intelligence and emerging technologies.
             </p>
 
             <p>
-                I am a self-taught and self-motivated learner who enjoys
-                exploring emerging technologies beyond the classroom.
-                My short-term goal is to become an AI Engineer and my
-                long-term goal is to become an entrepreneur creating
-                impactful AI products.
+                I enjoy turning ideas into working applications —
+                from AI-powered productivity tools to LLM-based
+                systems and intelligent developer solutions.
+            </p>
+
+            <p>
+                My current focus is on strengthening my software
+                engineering foundation while exploring Generative AI,
+                AI agents, NLP, RAG and LLM-powered applications.
             </p>
 
         </div>
 
-    </section>
 
-    <!-- SKILLS -->
+        <div class="developer-card">
 
-    <section id="skills" class="section">
-
-        <div class="section-title">
-            <h2>Core Skills</h2>
-        </div>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">Python</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">Prompt Engineering</div>
-            <div class="skill-card">Machine Learning</div>
-            <div class="skill-card">Generative AI</div>
-            <div class="skill-card">OpenAI API</div>
-            <div class="skill-card">Gemini API</div>
-            <div class="skill-card">Problem Solving</div>
-
-        </div>
-
-    </section>
-
-    <!-- TOOLS -->
-
-    <section class="section">
-
-        <div class="section-title">
-            <h2>Tools & Technologies</h2>
-        </div>
-
-        <div class="tools-grid">
-
-            <div class="tool-card">HTML5</div>
-            <div class="tool-card">CSS3</div>
-            <div class="tool-card">JavaScript</div>
-            <div class="tool-card">React.js</div>
-            <div class="tool-card">Next.js</div>
-            <div class="tool-card">Node.js</div>
-            <div class="tool-card">MySQL</div>
-            <div class="tool-card">GitHub</div>
-            <div class="tool-card">VS Code</div>
-            <div class="tool-card">Figma</div>
-
-        </div>
-
-    </section>
-
-    <!-- CERTIFICATIONS -->
-
-    <section class="section">
-
-        <div class="section-title">
-            <h2>Certifications</h2>
-        </div>
-
-        <div class="certification-container">
-
-            <div class="certificate-card">
-                Introduction to Generative AI
+            <div class="card-top">
+                <span class="terminal-dot red"></span>
+                <span class="terminal-dot yellow"></span>
+                <span class="terminal-dot green"></span>
             </div>
 
-            <div class="certificate-card">
-                Introduction to Artificial Intelligence
-            </div>
+            <div class="code-content">
 
-            <div class="certificate-card">
-                Introduction to Python
+                <p><span class="code-keyword">const</span>
+                    developer = {
+                </p>
+
+                <p class="indent">
+                    name:
+                    <span class="code-string">
+                        "Sathurika R"
+                    </span>,
+                </p>
+
+                <p class="indent">
+                    role:
+                    <span class="code-string">
+                        "Software Developer"
+                    </span>,
+                </p>
+
+                <p class="indent">
+                    focus:
+                    <span class="code-string">
+                        "AI / ML"
+                    </span>,
+                </p>
+
+                <p class="indent">
+                    learning:
+                    <span class="code-string">
+                        "LLM Systems"
+                    </span>,
+                </p>
+
+                <p class="indent">
+                    status:
+                    <span class="code-string">
+                        "building..."
+                    </span>
+                </p>
+
+                <p>};</p>
+
             </div>
 
         </div>
 
-    </section>
+    </div>
 
-    <!-- PROJECTS -->
+</section>
 
-    <section id="projects" class="section">
 
-        <div class="section-title">
-            <h2>Featured Projects</h2>
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section id="skills" class="section skills-section">
+
+    <div class="section-header">
+
+        <span class="section-number">02</span>
+
+        <div>
+            <p class="section-kicker">TECHNICAL SKILLS</p>
+            <h2>My engineering toolkit.</h2>
         </div>
+
+    </div>
+
+
+    <div class="skill-tabs">
+
+        <button class="skill-tab active"
+                data-category="all">
+            All
+        </button>
+
+        <button class="skill-tab"
+                data-category="languages">
+            Languages
+        </button>
+
+        <button class="skill-tab"
+                data-category="ai">
+            AI / ML
+        </button>
+
+        <button class="skill-tab"
+                data-category="backend">
+            Backend
+        </button>
+
+        <button class="skill-tab"
+                data-category="tools">
+            Tools
+        </button>
+
+    </div>
+
+
+    <div class="skills-matrix">
+
+        <div class="skill-item"
+             data-category="languages">
+
+            <span class="skill-icon">Py</span>
+
+            <div>
+                <strong>Python</strong>
+                <small>Primary Language</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="languages">
+
+            <span class="skill-icon">Ja</span>
+
+            <div>
+                <strong>Java</strong>
+                <small>Programming</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="languages">
+
+            <span class="skill-icon">JS</span>
+
+            <div>
+                <strong>JavaScript</strong>
+                <small>Web Development</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="languages">
+
+            <span class="skill-icon">C</span>
+
+            <div>
+                <strong>C</strong>
+                <small>Programming</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="languages">
+
+            <span class="skill-icon">SQL</span>
+
+            <div>
+                <strong>SQL</strong>
+                <small>Data & Queries</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">ML</span>
+
+            <div>
+                <strong>Machine Learning</strong>
+                <small>AI / ML</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">NLP</span>
+
+            <div>
+                <strong>NLP</strong>
+                <small>Natural Language Processing</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">AI</span>
+
+            <div>
+                <strong>Generative AI</strong>
+                <small>LLM Applications</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">LLM</span>
+
+            <div>
+                <strong>Large Language Models</strong>
+                <small>LLM Applications</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">AG</span>
+
+            <div>
+                <strong>AI Agents</strong>
+                <small>Agentic Systems</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">RAG</span>
+
+            <div>
+                <strong>RAG</strong>
+                <small>Retrieval Augmented Generation</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="ai">
+
+            <span class="skill-icon">PE</span>
+
+            <div>
+                <strong>Prompt Engineering</strong>
+                <small>LLM Interaction</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="backend">
+
+            <span class="skill-icon">FA</span>
+
+            <div>
+                <strong>FastAPI</strong>
+                <small>Backend Framework</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="backend">
+
+            <span class="skill-icon">API</span>
+
+            <div>
+                <strong>REST APIs</strong>
+                <small>API Integration</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="backend">
+
+            <span class="skill-icon">ST</span>
+
+            <div>
+                <strong>Streamlit</strong>
+                <small>AI Applications</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="tools">
+
+            <span class="skill-icon">GH</span>
+
+            <div>
+                <strong>Git & GitHub</strong>
+                <small>Version Control</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="tools">
+
+            <span class="skill-icon">OC</span>
+
+            <div>
+                <strong>Ollama</strong>
+                <small>Local LLMs</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="tools">
+
+            <span class="skill-icon">VS</span>
+
+            <div>
+                <strong>VS Code</strong>
+                <small>Development</small>
+            </div>
+
+        </div>
+
+
+        <div class="skill-item"
+             data-category="tools">
+
+            <span class="skill-icon">PM</span>
+
+            <div>
+                <strong>Postman</strong>
+                <small>API Testing</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     TOOLS / TECHNOLOGIES
+===================================================== -->
+
+<section class="tech-section">
+
+    <div class="tech-label">
+        <span>TOOLS & TECHNOLOGIES</span>
+        <span class="line"></span>
+    </div>
+
+    <div class="tech-marquee">
+
+        <div class="tech-track">
+
+            <span>Python</span>
+            <b>•</b>
+
+            <span>FastAPI</span>
+            <b>•</b>
+
+            <span>LangChain</span>
+            <b>•</b>
+
+            <span>LangGraph</span>
+            <b>•</b>
+
+            <span>Streamlit</span>
+            <b>•</b>
+
+            <span>OpenAI API</span>
+            <b>•</b>
+
+            <span>Gemini API</span>
+            <b>•</b>
+
+            <span>Ollama</span>
+            <b>•</b>
+
+            <span>Pandas</span>
+            <b>•</b>
+
+            <span>Git</span>
+            <b>•</b>
+
+            <span>GitHub</span>
+            <b>•</b>
+
+            <span>REST APIs</span>
+            <b>•</b>
+
+            <span>SQL</span>
+            <b>•</b>
+
+            <!-- duplicate for seamless animation -->
+
+            <span>Python</span>
+            <b>•</b>
+
+            <span>FastAPI</span>
+            <b>•</b>
+
+            <span>LangChain</span>
+            <b>•</b>
+
+            <span>LangGraph</span>
+            <b>•</b>
+
+            <span>Streamlit</span>
+            <b>•</b>
+
+            <span>OpenAI API</span>
+            <b>•</b>
+
+            <span>Gemini API</span>
+            <b>•</b>
+
+            <span>Ollama</span>
+            <b>•</b>
+
+            <span>Pandas</span>
+            <b>•</b>
+
+            <span>Git</span>
+            <b>•</b>
+
+            <span>GitHub</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section id="projects" class="section projects-section">
+
+    <div class="section-header">
+
+        <span class="section-number">03</span>
+
+        <div>
+            <p class="section-kicker">SELECTED WORK</p>
+            <h2>Things I've built.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="project-counter">
+
+        <span id="project-current">01</span>
+        <span>/</span>
+        <span>04</span>
+
+    </div>
+
+
+    <div class="project-carousel">
 
         <!-- PROJECT 1 -->
 
-        <div class="project-card">
+        <article class="project-slide active">
 
-            <div class="project-image">
-                <img src="assests/project1.png/" alt="Project 1">
+            <div class="project-number">
+                01
             </div>
 
-            <div class="project-content">
+            <div class="project-info">
 
-                <h3>AI Study Planner</h3>
-
-                <h4>Problem Statement</h4>
-
-                <p>
-                    Students often struggle to manage study schedules
-                    efficiently and maintain consistency.
+                <p class="project-category">
+                    AI APPLICATION
                 </p>
 
-                <h4>Solution</h4>
+                <h3>
+                    LLM Multi-Agent Researcher
+                </h3>
 
-                <p>
-                    Developed an AI-powered planner that generates
-                    personalized study schedules based on user goals.
+                <p class="project-description">
+                    A multi-agent AI research system designed to
+                    break down research tasks, coordinate specialized
+                    agents and synthesize information into structured
+                    results.
                 </p>
 
-                <h4>Tech Stack</h4>
+                <div class="project-tags">
 
-                <p>
-                    Python, JavaScript, OpenAI API, Gemini API,
-                    HTML, CSS
-                </p>
+                    <span>Python</span>
+                    <span>LLMs</span>
+                    <span>AI Agents</span>
+                    <span>LangChain</span>
+                    <span>LangGraph</span>
 
-                <h4>Tools Used</h4>
+                </div>
 
-                <p>
-                    VS Code, GitHub, Figma
-                </p>
+                <div class="project-actions">
 
-                <h4>Challenges Faced</h4>
+                    <!-- Replace with actual repository URL -->
 
-                <p>
-                    Designing personalized schedules while balancing
-                    user preferences and priorities.
-                </p>
+                    <a href="YOUR_LLM_RESEARCHER_GITHUB_URL"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        GitHub ↗
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
+
+            <div class="project-visual">
+
+                <div class="visual-window">
+
+                    <div class="window-bar">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <small>
+                            multi-agent-researcher
+                        </small>
+
+                    </div>
+
+                    <div class="agent-flow">
+
+                        <div class="agent-node main">
+                            RESEARCH
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div class="agent-row">
+
+                            <div class="agent-node">
+                                SEARCH
+                            </div>
+
+                            <div class="agent-node">
+                                ANALYZE
+                            </div>
+
+                            <div class="agent-node">
+                                SYNTHESIZE
+                            </div>
+
+                        </div>
+
+                        <div class="flow-line"></div>
+
+                        <div class="agent-node result">
+                            STRUCTURED REPORT
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
 
         <!-- PROJECT 2 -->
 
-        <div class="project-card">
+        <article class="project-slide">
 
-            <div class="project-image">
-                <img src="assests/project 2.png/" alt="Project 2">
+            <div class="project-number">
+                02
             </div>
 
-            <div class="project-content">
+            <div class="project-info">
 
-                <h3>AI Resume screener</h3>
-
-                <h4>Problem Statement</h4>
-
-                <p>
-                    Many recruiters receive hundreds of resumes for a single job opening, making manual screening time-consuming and inefficient. This often leads to delays in hiring and difficulty identifying the most relevant candidates.
+                <p class="project-category">
+                    AI / NLP
                 </p>
 
-                <h4>Solution</h4>
+                <h3>
+                    AI Resume Intelligence
+                </h3>
 
-                <p>
-                    Developed an AI-powered Resume Screening System that automatically analyzes resumes, extracts key information, compares candidate profiles with job descriptions, and provides a relevance score. The system helps recruiters quickly identify suitable candidates and streamline the initial screening process.
+                <p class="project-description">
+                    An AI-powered resume analysis system that extracts
+                    candidate information and evaluates alignment
+                    between resumes and job requirements.
                 </p>
 
-                <h4>Tech Stack</h4>
+                <div class="project-tags">
 
-                <p>
-                    Python, OpenAI API, JavaScript
-                </p>
+                    <span>Python</span>
+                    <span>LLMs</span>
+                    <span>NLP</span>
+                    <span>Streamlit</span>
+                    <span>API Integration</span>
 
-                <h4>Tools Used</h4>
+                </div>
 
-                <p>
-                    VS Code, GitHub, Postman
-                </p>
+                <div class="project-actions">
 
-                <h4>Challenges Faced</h4>
+                    <!-- Replace with actual repository URL -->
 
-                <p>
-                    Improving accuracy and handling diverse prompts.
-                </p>
+                    <a href="YOUR_AI_RESUME_INTELLIGENCE_GITHUB_URL"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        GitHub ↗
+                    </a>
+
+                </div>
 
             </div>
 
-        </div>
+
+            <div class="project-visual">
+
+                <div class="visual-window resume-visual">
+
+                    <div class="window-bar">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <small>
+                            resume-intelligence
+                        </small>
+
+                    </div>
+
+                    <div class="resume-ui">
+
+                        <div class="resume-file">
+                            RESUME.pdf
+                        </div>
+
+                        <div class="resume-arrow">
+                            ↓
+                        </div>
+
+                        <div class="analysis-box">
+
+                            <div>
+                                <small>SKILLS</small>
+                                <strong>Python · AI · SQL</strong>
+                            </div>
+
+                            <div>
+                                <small>MATCH</small>
+                                <strong>Job Alignment</strong>
+                            </div>
+
+                            <div>
+                                <small>INSIGHTS</small>
+                                <strong>Generated</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
 
         <!-- PROJECT 3 -->
 
-        <div class="project-card">
+        <article class="project-slide">
 
-            <div class="project-image">
-                <img src="assests/project3.png/" alt="Project 3">
+            <div class="project-number">
+                03
             </div>
 
-            <div class="project-content">
+            <div class="project-info">
 
-                <h3>AI Content Creation platform</h3>
-
-                <h4>Problem Statement</h4>
-
-                <p>
-                    Content creators, marketers, students, and businesses often spend significant time brainstorming, drafting, and refining content for blogs, social media, emails, and marketing campaigns. Producing high-quality content consistently can be challenging and time-consuming
+                <p class="project-category">
+                    AI PRODUCTIVITY
                 </p>
 
-                <h4>Solution</h4>
+                <h3>
+                    AI Study Planner
+                </h3>
 
-                <p>
-                   Developed an AI-powered Content Creation Platform that generates high-quality content based on user prompts. The platform assists users in creating blogs, social media posts, marketing copy, emails, and other written content quickly and efficiently using Generative AI models.
+                <p class="project-description">
+                    An AI-powered study planning application that
+                    generates personalized study schedules based on
+                    user goals, subjects and priorities.
                 </p>
 
-                <h4>Tech Stack</h4>
+                <div class="project-tags">
 
-                <p>
-                    Python, Pandas, NumPy, Scikit-Learn
+                    <span>Python</span>
+                    <span>Generative AI</span>
+                    <span>API Integration</span>
+                    <span>AI</span>
+
+                </div>
+
+                <div class="project-actions">
+
+                    <a href="https://github.com/sathurika/AI-STUDY-PLANNER-GENERATOR"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-visual">
+
+                <div class="visual-window planner-visual">
+
+                    <div class="window-bar">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <small>
+                            ai-study-planner
+                        </small>
+
+                    </div>
+
+                    <div class="planner-ui">
+
+                        <div class="planner-heading">
+                            MY STUDY PLAN
+                        </div>
+
+                        <div class="study-item">
+                            <span>01</span>
+                            Python
+                            <b>2h</b>
+                        </div>
+
+                        <div class="study-item">
+                            <span>02</span>
+                            Machine Learning
+                            <b>2h</b>
+                        </div>
+
+                        <div class="study-item">
+                            <span>03</span>
+                            Revision
+                            <b>1h</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <!-- PROJECT 4 -->
+
+        <article class="project-slide">
+
+            <div class="project-number">
+                04
+            </div>
+
+            <div class="project-info">
+
+                <p class="project-category">
+                    GENERATIVE AI
                 </p>
 
-                <h4>Tools Used</h4>
+                <h3>
+                    AI Content Creation Platform
+                </h3>
 
-                <p>
-                    Jupyter Notebook, GitHub, VS Code
+                <p class="project-description">
+                    An AI-powered content generation application for
+                    creating social media captions, hashtags and
+                    content prompts using Generative AI.
                 </p>
 
-                <h4>Challenges Faced</h4>
+                <div class="project-tags">
+
+                    <span>Python</span>
+                    <span>Generative AI</span>
+                    <span>Streamlit</span>
+                    <span>LLMs</span>
+
+                </div>
+
+                <div class="project-actions">
+
+                    <a href="https://github.com/sathurika/AI-CONTENT-GENERATOR-"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="project-link">
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-visual">
+
+                <div class="visual-window content-visual">
+
+                    <div class="window-bar">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <small>
+                            ai-content-studio
+                        </small>
+
+                    </div>
+
+                    <div class="content-ui">
+
+                        <div class="content-prompt">
+                            Generate content...
+                        </div>
+
+                        <div class="generated-content">
+
+                            <span class="mini-label">
+                                GENERATED
+                            </span>
+
+                            <strong>
+                                Creative content
+                            </strong>
+
+                            <p>
+                                Captions · Hashtags · Prompts
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="carousel-controls">
+
+        <button id="project-prev"
+                aria-label="Previous project">
+            ←
+        </button>
+
+        <div class="carousel-dots">
+
+            <button class="carousel-dot active"
+                    data-slide="0"></button>
+
+            <button class="carousel-dot"
+                    data-slide="1"></button>
+
+            <button class="carousel-dot"
+                    data-slide="2"></button>
+
+            <button class="carousel-dot"
+                    data-slide="3"></button>
+
+        </div>
+
+        <button id="project-next"
+                aria-label="Next project">
+            →
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ACHIEVEMENTS
+===================================================== -->
+
+<section id="achievements" class="section achievements-section">
+
+    <div class="section-header">
+
+        <span class="section-number">04</span>
+
+        <div>
+            <p class="section-kicker">ACHIEVEMENTS</p>
+            <h2>Milestones along the way.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="achievement-grid">
+
+        <div class="achievement-card featured-achievement">
+
+            <div class="achievement-icon">
+                🏆
+            </div>
+
+            <div>
+
+                <span class="achievement-number">
+                    02
+                </span>
+
+                <h3>
+                    Hackathon Wins
+                </h3>
 
                 <p>
-                    Data preprocessing, feature engineering,
-                    and model optimization.
+                    Won 2 technical hackathons by developing
+                    and presenting technology-driven solutions.
                 </p>
 
             </div>
 
         </div>
 
-    </section>
 
-    <!-- CONTACT -->
+        <div class="achievement-card">
 
-    <section id="contact" class="section">
+            <div class="achievement-icon">
+                &lt;/&gt;
+            </div>
 
-        <div class="section-title">
-            <h2>Contact</h2>
+            <div>
+
+                <span class="achievement-number">
+                    06
+                </span>
+
+                <h3>
+                    Hackathons
+                </h3>
+
+                <p>
+                    Participated in 6 technical hackathons,
+                    collaborating on software and AI-based ideas.
+                </p>
+
+            </div>
+
         </div>
 
-        <div class="contact-card">
+    </div>
 
-            <p><strong>Email:</strong> sathurika.r@gmail.com</p>
+</section>
 
-            <p><strong>Phone:</strong> +91 7904155166</p>
 
-            <p><strong>LinkedIn:</strong>https://www.linkedin.com/in/sathurika-r-a9741633b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</p>
+<!-- =====================================================
+     RESUME
+===================================================== -->
 
-            <p><strong>Location:</strong> Chennai, Tamil Nadu, India</p>
+<section id="resume" class="section resume-section">
+
+    <div class="resume-card">
+
+        <div class="resume-text">
+
+            <p class="section-kicker">
+                MY RESUME
+            </p>
+
+            <h2>
+                Building today.<br>
+                Preparing for tomorrow.
+            </h2>
+
+            <p>
+                Explore my education, technical skills, projects,
+                internship experience and achievements.
+            </p>
+
+            <div class="resume-buttons">
+
+                <a href="assests/Sathurika_R_Resume003.pdf"
+                   target="_blank"
+                   class="primary-btn">
+                    View Resume →
+                </a>
+
+                <a href="assests/Sathurika_R_Resume003.pdf"
+                   download
+                   class="secondary-btn">
+                    Download PDF
+                </a>
+
+            </div>
 
         </div>
 
-    </section>
 
-    <!-- FOOTER -->
+        <div class="resume-code">
 
-    <footer>
+            <div class="code-line">
+                <span>01</span>
+                <p>
+                    <b>role</b>:
+                    "Software Developer"
+                </p>
+            </div>
 
-        <p>
-            © 2026 Sathurika | AI Engineer Aspirant
+            <div class="code-line">
+                <span>02</span>
+                <p>
+                    <b>focus</b>:
+                    "AI / ML"
+                </p>
+            </div>
+
+            <div class="code-line">
+                <span>03</span>
+                <p>
+                    <b>projects</b>: 4
+                </p>
+            </div>
+
+            <div class="code-line">
+                <span>04</span>
+                <p>
+                    <b>hackathonWins</b>: 2
+                </p>
+            </div>
+
+            <div class="code-line">
+                <span>05</span>
+                <p>
+                    <b>status</b>:
+                    "Learning & Building"
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section id="contact" class="section contact-section">
+
+    <div class="section-header">
+
+        <span class="section-number">05</span>
+
+        <div>
+            <p class="section-kicker">CONTACT</p>
+            <h2>Let's build something.</h2>
+        </div>
+
+    </div>
+
+
+    <div class="contact-grid">
+
+        <div class="contact-intro">
+
+            <p>
+                Have an opportunity, project idea or simply
+                want to connect? Feel free to reach out.
+            </p>
+
+            <span class="availability">
+                <i></i>
+                Open to opportunities
+            </span>
+
+        </div>
+
+
+        <div class="contact-links">
+
+            <a href="mailto:sathurika.r04@gmail.com"
+               class="contact-link">
+
+                <span class="contact-icon">
+                    ✉
+                </span>
+
+                <div>
+                    <small>Email</small>
+                    <strong>
+                        sathurika.r04@gmail.com
+                    </strong>
+                </div>
+
+                <span class="arrow">↗</span>
+
+            </a>
+
+
+            <a href="https://github.com/sathurika"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+
+                <span class="contact-icon">
+                    GH
+                </span>
+
+                <div>
+                    <small>GitHub</small>
+                    <strong>
+                        github.com/sathurika
+                    </strong>
+                </div>
+
+                <span class="arrow">↗</span>
+
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/04-sathurika"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="contact-link">
+
+                <span class="contact-icon">
+                    in
+                </span>
+
+                <div>
+                    <small>LinkedIn</small>
+                    <strong>
+                        Sathurika R
+                    </strong>
+                </div>
+
+                <span class="arrow">↗</span>
+
+            </a>
+
+
+            <div class="contact-link location-link">
+
+                <span class="contact-icon">
+                    ◎
+                </span>
+
+                <div>
+                    <small>Location</small>
+                    <strong>
+                        Chennai, Tamil Nadu, India
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="footer-inner">
+
+        <div>
+
+            <strong>
+                &lt;SATHURIKA /&gt;
+            </strong>
+
+            <p>
+                Software Developer • AI/ML Enthusiast
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="https://github.com/sathurika"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/04-sathurika"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a href="mailto:sathurika.r04@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 Sathurika R
         </p>
 
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
